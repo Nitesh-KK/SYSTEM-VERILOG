@@ -13,7 +13,6 @@ endmodule
 
 /*
 OUTPUT:
-
 String : Hello world
 String length:          11
 String upper: HELLO WORLD
