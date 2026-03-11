@@ -7,10 +7,6 @@ interface counter_in #(parameter N=2);
     input clk,
     input rst,
     output count);
-  modport tb(
-    output clk,
-    output rst,
-    input count);
 endinterface
 
 module up_counter(counter_in.DUT coun);
